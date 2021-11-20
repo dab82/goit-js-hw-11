@@ -24,7 +24,7 @@ export const imagesMarkup = function (images) {
       image =>
         (markup += ` <div class="photo-card">
         <a href="${image.largeImageURL}">
-           <img src="${image.webformatURL}" alt="${image.tags}" loading="lazy" width="250" height="150"/>
+           <img class="img" src="${image.webformatURL}" alt="${image.tags}" loading="lazy" width="250" height="150"/>
     <div class="info">
       <p class="info-item">
         <b>Likes</b> ${image.likes}
