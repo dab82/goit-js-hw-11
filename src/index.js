@@ -2,8 +2,8 @@ import './sass/main.scss';
 import './js/scroll-up';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
-import ImagesAPIService from './js/imagesAPIService';
-import { hideLoadMoreBtn, showLoadMoreBtn, imagesMarkup } from './js/imagesMarkup';
+import ImagesAPIService from './js/img-http-service';
+import { hideLoadMoreBtn, showLoadMoreBtn, imagesMarkup } from './js/img-markup';
 
 const PER_PAGE = 40;
 const refs = {

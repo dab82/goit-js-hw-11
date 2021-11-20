@@ -1,8 +1,6 @@
 import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 
-// import { PER_PAGE } from '../index';
-
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '24391196-489ef83667de5dc555866ed93';
 
